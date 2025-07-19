@@ -581,8 +581,8 @@ PERIODIC_TABLE = [
 ]
 
 # Database senyawa kimia (diperbanyak)
-COMPOUNDS = [
-    "Asam Klorida (HCl)": {"color": "#FFFFFF", "formula": "HCl", "type": "Asam Kuat", "hazards": ["Korosif"]},
+COMPOUNDS = {
+    "Asam Klorida (HCl)": {"color": "#F0F0F0", "formula": "HCl", "type": "Asam Kuat", "hazards": ["Korosif"]},
     "Natrium Hidroksida (NaOH)": {"color": "#FFFFFF", "formula": "NaOH", "type": "Basa Kuat", "hazards": ["Korosif"]},
     "Tembaga Sulfat (CuSO₄)": {"color": "#00B4D8", "formula": "CuSO₄", "type": "Garam", "hazards": ["Beracun"]},
     "Besi (Fe)": {"color": "#B5651D", "formula": "Fe", "type": "Logam", "hazards": []},
@@ -687,7 +687,7 @@ COMPOUNDS = [
     "Natrium Eikosapentaenoat (C₂₀H₂₉NaO₂)": {"color": "#FFFFFF", "formula": "C₂₀H₂₉NaO₂", "type": "Sabun", "hazards": []},
     "Asam Dokosaheksaenoat (C₂₂H₃₂O₂)": {"color": "#F5F5DC", "formula": "C₂₂H₃₂O₂", "type": "Asam Lemak", "hazards": []},
     "Natrium Dokosaheksaenoat (C₂₂H₃₁NaO₂)": {"color": "#FFFFFF", "formula": "C₂₂H₃₁NaO₂", "type": "Sabun", "hazards": []}
-]
+}
 
 # Database reaksi kimia (diperbanyak)
 REACTIONS = [
